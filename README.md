@@ -52,12 +52,13 @@ Please note that the documentation from Spotify for their APIs is pretty outdate
 
 ## Usage/Examples
 
-1. Run the project locally (Client, Server, Database).
-1. On the starting page, if there's a certificate security warning proceed anyway (we're local), authorize location tracking and Login to Spotify.
-1. If not already listening to Spotify on a separate device, search for a song in the search box and click on the magnifying glass. (Click on the cross button if you want to reset your search.)
-1. Click on a song. When the song plays, a pin should appear on the map and the view should re-position on it.
-1. Repeat the process and you should see a new pin appearing on the map linked to the first one by a line.
-1. Click on a tag and you should see the data attached to it.
+1. Run ```npm run dev``` in the /client folder
+1. Run ```nodemon index.js``` in the /server/ folder
+1. On the landing page, proceed past any certificate warning (safe in local development), allow location access, and log in to Spotify.
+1. If you're not already playing music on another device, search for a song using the search box and click the magnifying glass icon. (Use the “X” button to clear the search.)
+1. Click on a song to start playback. A pin will appear on the map, and the view will automatically center on it.
+1. Play additional songs to generate new pins, each connected to the previous one by a line.
+1. Click on a pin (tag) to view the metadata attached to that listening point.
 
 ## Documentation
 
