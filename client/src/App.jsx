@@ -64,7 +64,6 @@ function App() {
 
     spotifyService.getAuthToken()
       .then((authToken) => {
-        console.log(authToken);
         setAuthToken(authToken.access_token);
       });
     }, []);
