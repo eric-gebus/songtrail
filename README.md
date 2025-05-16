@@ -81,7 +81,7 @@ Please note that the documentation from Spotify for their APIs is pretty outdate
 ## Screenshots
 
 <div style="display: flex; gap: 40px; justify-content: center;">
-  <img src="/client/public/screenshots/login.png?raw=true" width="300" alt="Main View" />
-  <img src="/client/public/screenshots/pin.png?raw=true" width="300" alt="Pin View" />
-  <img src="/client/public/screenshots/trail.png?raw=true" width="300" alt="Pin View" />
+  <img src="/client/src/screenshots/login.png?raw=true" width="300" alt="Main View" />
+  <img src="/client/src/screenshots/pin.png?raw=true" width="300" alt="Pin View" />
+  <img src="/client/src/screenshots/trail.png?raw=true" width="300" alt="Pin View" />
 </div>
