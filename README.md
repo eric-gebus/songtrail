@@ -82,5 +82,6 @@ Please note that the documentation from Spotify for their APIs is pretty outdate
 
 <div style="display: flex; gap: 40px; justify-content: center;">
   <img src="/client/src/screenshots/pin.png?raw=true" width="300" alt="Pin View" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img src="/client/src/screenshots/trail.png?raw=true" width="300" alt="Pin View" />
 </div>
